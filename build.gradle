@@ -28,6 +28,8 @@ sonarqube {
     properties {
         property "sonar.sourceEncoding", "UTF-8"
                 property "sonar.projectName", "springboot-tomcat-gradle-war"
+		property "sonar.host", "http://13.232.172.238:9000"
+                property "sonar.login", "4568f962ae48c6297f9e6df818e0366a2c66b23c"
 
     }
 }
